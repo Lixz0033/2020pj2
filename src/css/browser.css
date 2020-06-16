@@ -1,0 +1,46 @@
+#nav_browser {
+    background: rgba(200, 200, 200, 0.5);
+}
+
+.container {
+    position: relative;
+    margin: 40px auto 20px auto;
+}
+
+p {
+    width: 80%;
+}
+
+.card {
+    margin: 0.2em auto 0.2em auto;
+    overflow: hidden;
+}
+
+.card-body {
+    line-height: 0.2em;
+}
+
+.card-header {
+    line-height: 0.2em;
+}
+
+.container .row {
+    margin: 10px auto 5px auto;
+}
+
+.d-flex .col-3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+}
+
+.col-3 .crop {
+    max-width: 240px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 360px;
+    margin-top: -120px;
+}

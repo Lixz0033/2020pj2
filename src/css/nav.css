@@ -1,0 +1,57 @@
+body {
+    background: url("../../img/nav/background.png") fixed;
+    background-size: cover;
+}
+
+.navigation {
+    width: 90%;
+    min-width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0px auto;
+    background-image: -webkit-linear-gradient(rgba(41, 41, 41, 0.45) 4%, rgba(24, 23, 23, 0.85) 51%); /*导航栏颜色渐变*/
+    box-shadow: 1px 1px 10px #000000; /*导航栏阴影*/
+    z-index: 100;
+}
+
+
+.navigation ul li:hover {
+    background: rgba(50, 50, 50, 0.8);
+}
+
+.navigation > ul > li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "微软雅黑", "宋体", serif;
+    text-align: left;
+    line-height: 40px;
+}
+
+.nav_list_left {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav_list_right {
+    float: right;
+    margin-right: 40px;
+}
+
+.nav_list_right_li {
+    display: none;
+}
+
+.navigation > ul > li > div:hover > ul > li {
+    display: block;
+}
+
+.navigation > ul > li > div:focus > ul > li {
+    display: block;
+}
+
+.navigation > ul > li > div > ul {
+    background-color: rgba(20, 20, 20, 0.4);
+    z-index: 999;
+    position: absolute;
+}

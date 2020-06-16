@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    margin: 60px auto 20px auto;
+    padding-bottom: 10px;
+}
+
+.modal-footer p {
+    width: 80%;
+}
+
+.card-body {
+    line-height:0.4em;
+}
+
+.card-header {
+    line-height:0.4em;
+}

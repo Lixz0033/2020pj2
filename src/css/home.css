@@ -1,0 +1,55 @@
+/*nav*/
+#nav_home {
+    background: rgba(130, 130, 130, 0.8);
+}
+
+/*warp*/
+.container {
+    position: relative;
+    margin: 60px auto 20px auto;
+    padding-bottom: 10px;
+}
+
+.container .wrap {
+    position: absolute;
+    width: 5000px;
+    height: 400px;
+    z-index: 1;
+}
+
+.container .wrap img {
+    float: left;
+    width: 800px;
+    height: 400px;
+}
+
+
+.crop {
+    max-width: 240px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 360px;
+    margin-top: -120px;
+}
+
+p {
+    word-break: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*aside*/
+#aside {
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+#aside img {
+    background-color: rgba(80, 80, 80, 0.3);
+}
